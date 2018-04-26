@@ -19,30 +19,96 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    display: flex;
     box-sizing: border-box;
-    background: aqua;
+
 }
 
 .container {
-    margin: 20px;
+    margin-left: 20.6%;
+}
+/* fonts */
+h1 {
+    font-size: 52px;
+    color: white;
+    font-weight: 300;
+    text-shadow: 0 1px 1px #000000;
+    line-height: 62px;
 }
 
+h2 {
+    color: #fe992a;
+    font-size: 24px;
+    font-weight: 400;
+   }
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+/*end fonts*/
+
 nav {
-    width: 637px;
-    height: 12px;
+    width: 931px;
+    height: 73px;
     display: inline-flex;
+    margin-top: 53px;
 
 }
 
 nav ul {
     margin: 0 auto;
+    line-height: 73px;
+
+
 }
 nav ul li {
     display: inline-flex;
-    background-color: black;
-    }
+         }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-right: 40px;
+}
 
+nav ul li a:hover {
+    color: #414141;
+}
+
+
+header {
+    background: url("img/main-bg.png");
+    background-size: cover;
+    max-width: 130%;
+    height: 941px;
+    margin-left: -300px;
+    margin-right: -300px;
+}
+
+header img {
+    margin-left: 60px;
+
+}
+
+.main {
+    margin-top: 169px;
+    width: 396px;
+    height: 252px
+}
+
+
+.main p {
+    color: white;
+    margin-top: 30px;
+    line-height: 25px;
+    text-shadow: 0 1px 1px #000000;
+    width: 394px;
+    height: 112px;
+
+}
 
 
 
@@ -50,7 +116,7 @@ nav ul li {
 
 footer {
 
-    background-color: #e87875; 
+    background-color: #e87875;
 }
 
 
